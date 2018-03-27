@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ST.MicroServiceBase</id>
+    <version>1.0.0</version>
+    <authors>EvMard</authors>
+    <owners>EvMard</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ST.MicroServiceBase</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags></tags>
+    <dependencies>
+      <group targetFramework="net45">
+		<dependency id="Microsoft.Diagnostics.Tracing.EventSource.Redist" version="1.1.28"/>
+		<dependency id="RabbitMQ.Client" version="5.0.1" />
+        <dependency id="Newtonsoft.Json" version="10.0.3" />
+		<dependency id="ST.Profiler" version="1.0" />
+		<dependency id="ST.Utils" version="1.0" />
+		<dependency id="ST.MicroServiceBase.Contract" version="1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\MicroServiceBase.dll" target="lib\net452\MicroServiceBase.dll"/>
+  </files>  
+</package>

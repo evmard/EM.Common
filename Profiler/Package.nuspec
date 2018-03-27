@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ST.Profiler</id>
+    <version>1.0.0</version>
+    <authors>EvMard</authors>
+    <owners>EvMard</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ST.Profiler</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags></tags>
+    <dependencies>
+      <group targetFramework="net45">
+		<dependency id="EntityFramework" version="6.1.3"/>
+		<dependency id="log4net" version="2.0.8" />
+		<dependency id="ST.Utils" version="1.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Profiler.dll" target="lib\net452\Profiler.dll"/>
+  </files> 
+</package>

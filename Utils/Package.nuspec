@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ST.Utils</id>
+    <version>1.0.0</version>
+    <authors>EvMard</authors>
+    <owners>EvMard</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ST.Utils</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags></tags>
+    <dependencies>      
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\Utils.dll" target="lib\net452\Utils.dll"/>
+  </files>
+</package>
